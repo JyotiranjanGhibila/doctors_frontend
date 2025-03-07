@@ -1,8 +1,16 @@
 {
     "version": 2,
-    "public": "dist/people-management",
+    "builds": [
+      {
+        "src": "dist/people-management/**",
+        "use": "@vercel/static"
+      }
+    ],
     "routes": [
-      { "src": "/(.*)", "dest": "/index.html" }
+      {
+        "src": "/(.*)",
+        "dest": "/index.html"
+      }
     ]
   }
   
