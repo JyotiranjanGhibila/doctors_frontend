@@ -1,0 +1,8 @@
+{
+    "version": 2,
+    "public": "dist/people-management",
+    "routes": [
+      { "src": "/(.*)", "dest": "/index.html" }
+    ]
+  }
+  

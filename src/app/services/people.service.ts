@@ -6,7 +6,7 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class PeopleService {
-  private apiUrl = 'http://localhost:8080/api';
+  private apiUrl = 'https://doctors-backend-git-main-jyotiranjanghibilas-projects.vercel.app/api';
 
   constructor(private http: HttpClient) {}
 
